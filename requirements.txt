@@ -1,1 +1,18 @@
+# Core Libraries
+pandas 
+pip install pandas  # installation
 
+# Machine Leraning Libraries
+scikit-learn
+pip install scikit-learn # installation
+
+# Visualization
+matplotlib
+pip install matplotlib # installation
+
+seaborn (Optional)
+pip install seaborn # installation
+
+# Platform (Optional)
+Jupyter Notebook (If you are using)
+pip install jupyter # installation
