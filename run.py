@@ -57,3 +57,18 @@ for size in test_size:
     plt.legend()
     plt.title('Actual vs Predicted Values for Test Size ' + str(size))
     plt.show()
+
+# Plotting MSE and R2 against train size
+plt.figure(figsize=(12, 6))
+plt.subplot(1, 2, 1)    
+plt.plot(train_size_arr, mse_arr, marker='o')
+plt.title('Mean Squared Error vs Train Size')
+plt.xlabel('Train Size')
+plt.ylabel('Mean Squared Error')
+plt.subplot(1, 2, 2)
+plt.plot(train_size_arr, r2_arr, marker='o', color='orange')
+plt.title('R^2 Score vs Train Size')
+plt.xlabel('Train Size')
+plt.ylabel('R^2 Score')
+plt.tight_layout()
+plt.show()
